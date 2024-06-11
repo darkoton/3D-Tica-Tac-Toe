@@ -13,6 +13,7 @@ export default defineConfig({
       ...templateCompilerOptions
     }),
   ],
+  // base: '/3D-Tica-Tac-Toe/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
