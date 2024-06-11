@@ -1,6 +1,6 @@
 {
-  "name": "my-vue-app",
-  "productName": "my-vue-app",
+  "name": "3d-tic-tac-toe",
+  "productName": "3D Tic Tac Toe",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".vite/build/main.js",
