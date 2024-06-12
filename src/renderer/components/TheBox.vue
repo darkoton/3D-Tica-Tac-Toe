@@ -6,11 +6,11 @@ import * as Three from 'three';
 const props = defineProps(['box']);
 
 const textures = {
-  blue: await useTexture(['/blue.png']),
-  red: await useTexture(['/red.png']),
-  green: await useTexture(['/green.png']),
-  yellow: await useTexture(['/yellow.png']),
-  white: await useTexture(['/white.png'])
+  blue: await useTexture(['./blue.png']),
+  red: await useTexture(['./red.png']),
+  green: await useTexture(['./green.png']),
+  yellow: await useTexture(['./yellow.png']),
+  white: await useTexture(['./white.png'])
 };
 
 // const materials = {
