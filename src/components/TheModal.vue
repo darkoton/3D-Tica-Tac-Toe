@@ -16,7 +16,7 @@ defineEmits(['close'])
       <div class="modal-title">Start?</div>
 
       <div class="modal-buttons">
-        <div class="modal-button" @click="store.countPlayers = 2; $emit('close')"><span>1 VS 1</span></div>
+        <div class="modal-button" @click="store.countPlayers = 1; $emit('close')"><span>1 VS 1</span></div>
         <div class="modal-button" @click="store.countPlayers = 3; $emit('close')"><span>1 VS 1 VS 1</span></div>
         <div class="modal-button" @click="store.countPlayers = 4; $emit('close')"><span>1VS 1 VS1 VS 1</span></div>
       </div>

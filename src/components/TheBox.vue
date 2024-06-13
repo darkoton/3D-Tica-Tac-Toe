@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch } from 'vue';
 import { useTexture } from '@tresjs/core';
-import * as Three from 'three';
+// import * as Three from 'three';
 
 const props = defineProps(['box']);
 
