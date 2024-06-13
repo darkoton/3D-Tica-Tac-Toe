@@ -23,7 +23,6 @@ export const useStore = defineStore('store', () => {
   const turnTitle = ref('Blue player\'s turn')
 
   function selectBox() {
-    console.log(alternateColor);
     turn.value = alternateColor[turn.value]
   }
 
